@@ -1,0 +1,1125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coding projects\\fitty\\fitty-be\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\dishes\\queries\\getdish\\getdishqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\dishes\\queries\\getdish\\getdishqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\dishes\\queries\\getdish\\getdishquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\dishes\\queries\\getdish\\getdishquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\dishes\\queries\\getalldishes\\getalldishesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\dishes\\queries\\getalldishes\\getalldishesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\dishes\\queries\\getalldishes\\getalldishesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\dishes\\queries\\getalldishes\\getalldishesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\dishes\\queries\\getalldishes\\getalldishesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\dishes\\queries\\getalldishes\\getalldishesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\controllers\\dishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\controllers\\dishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|d:\\coding projects\\fitty\\fitty-be\\persistence\\implementation\\repos\\dishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|solutionrelative:persistence\\implementation\\repos\\dishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\contracts\\repos\\idishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\contracts\\repos\\idishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\category\\queries\\getallcategories\\getallcategoriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\category\\queries\\getallcategories\\getallcategoriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B71410E-E211-4834-BFD0-0F11470C74CB}|Identity\\Identity.csproj|d:\\coding projects\\fitty\\fitty-be\\identity\\identityserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B71410E-E211-4834-BFD0-0F11470C74CB}|Identity\\Identity.csproj|solutionrelative:identity\\identityserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\dishes\\commands\\adddish\\createdishcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\dishes\\commands\\adddish\\createdishcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\dishes\\commands\\adddish\\createdishcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\dishes\\commands\\adddish\\createdishcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\behaviours\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\behaviours\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\behaviours\\cachingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\behaviours\\cachingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\dishes\\commands\\adddish\\createdishcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\dishes\\commands\\adddish\\createdishcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\dishcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\dishcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|d:\\coding projects\\fitty\\fitty-be\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|solutionrelative:persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\identity\\commands\\loginuser\\loginusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\identity\\commands\\loginuser\\loginusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B71410E-E211-4834-BFD0-0F11470C74CB}|Identity\\Identity.csproj|d:\\coding projects\\fitty\\fitty-be\\identity\\implementation\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B71410E-E211-4834-BFD0-0F11470C74CB}|Identity\\Identity.csproj|solutionrelative:identity\\implementation\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B71410E-E211-4834-BFD0-0F11470C74CB}|Identity\\Identity.csproj|d:\\coding projects\\fitty\\fitty-be\\identity\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B71410E-E211-4834-BFD0-0F11470C74CB}|Identity\\Identity.csproj|solutionrelative:identity\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\contracts\\identity\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\contracts\\identity\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\identity\\commands\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\identity\\commands\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\coding projects\\fitty\\fitty-be\\Persistence\\Migrations\\20241013065311_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistence\\Migrations\\20241013065311_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\middlewares\\logmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\middlewares\\logmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|d:\\coding projects\\fitty\\fitty-be\\persistence\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\contracts\\repos\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\contracts\\repos\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\attributes\\authorizerolesattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\attributes\\authorizerolesattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|d:\\coding projects\\fitty\\fitty-be\\persistence\\implementation\\repos\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|solutionrelative:persistence\\implementation\\repos\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\identity\\commands\\loginuser\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\identity\\commands\\loginuser\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\identity\\commands\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\identity\\commands\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\identity\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\identity\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\features\\identity\\commands\\createuser\\createusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\features\\identity\\commands\\createuser\\createusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\contracts\\identity\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\contracts\\identity\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\contracts\\helpers\\icacheableresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\contracts\\helpers\\icacheableresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\contracts\\helpers\\icacheablerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\contracts\\helpers\\icacheablerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|d:\\coding projects\\fitty\\fitty-be\\persistence\\implementation\\helpers\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407F8C0B-58DA-4666-83B1-29AF12A06C3C}|Persistence\\Persistence.csproj|solutionrelative:persistence\\implementation\\helpers\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\extensionmethods\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\extensionmethods\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\shippingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\shippingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\paymentoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\paymentoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\dishnutrient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\dishnutrient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|d:\\coding projects\\fitty\\fitty-be\\domain\\enums\\areatypesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DDBE22-4BA0-4A2B-9BEC-F33FA9E769EB}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\areatypesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|d:\\coding projects\\fitty\\fitty-be\\application\\behaviours\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3DC068-EF86-4526-9933-902ABFB0CF99}|Application\\Application.csproj|solutionrelative:application\\behaviours\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B71410E-E211-4834-BFD0-0F11470C74CB}|Identity\\Identity.csproj|d:\\coding projects\\fitty\\fitty-be\\identity\\enums\\userrolesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B71410E-E211-4834-BFD0-0F11470C74CB}|Identity\\Identity.csproj|solutionrelative:identity\\enums\\userrolesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|d:\\coding projects\\fitty\\fitty-be\\api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A9B6FE3C-3BEC-42A8-B7A5-A72AA98696B6}|API\\API.csproj|solutionrelative:api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetDishQuery.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetDish\\GetDishQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Dishes\\Queries\\GetDish\\GetDishQuery.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetDish\\GetDishQuery.cs",
+              "RelativeToolTip": "Application\\Features\\Dishes\\Queries\\GetDish\\GetDishQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:48:55.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetDishQueryResponse.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetDish\\GetDishQueryResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Dishes\\Queries\\GetDish\\GetDishQueryResponse.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetDish\\GetDishQueryResponse.cs",
+              "RelativeToolTip": "Application\\Features\\Dishes\\Queries\\GetDish\\GetDishQueryResponse.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAD4vwkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:48:38.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllDishesQuery.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQuery.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQuery.cs",
+              "RelativeToolTip": "Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:23:41.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllDishesQueryResponse.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQueryResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQueryResponse.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQueryResponse.cs",
+              "RelativeToolTip": "Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQueryResponse.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:28:13.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllDishesQueryHandler.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQueryHandler.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Dishes\\Queries\\GetAllDishes\\GetAllDishesQueryHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:28:08.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Response\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Response\\BaseResponse.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Response\\BaseResponse.cs",
+              "RelativeToolTip": "Application\\Response\\BaseResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:48:03.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "API\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA6wBYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:50:54.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DishController.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\Controllers\\DishController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\DishController.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\Controllers\\DishController.cs",
+              "RelativeToolTip": "API\\Controllers\\DishController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA6wBYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:33:04.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DishRepo.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\Implementation\\Repos\\DishRepo.cs",
+              "RelativeDocumentMoniker": "Persistence\\Implementation\\Repos\\DishRepo.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\Implementation\\Repos\\DishRepo.cs",
+              "RelativeToolTip": "Persistence\\Implementation\\Repos\\DishRepo.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:31:27.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDishRepo.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Repos\\IDishRepo.cs",
+              "RelativeDocumentMoniker": "Application\\Contracts\\Repos\\IDishRepo.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Repos\\IDishRepo.cs",
+              "RelativeToolTip": "Application\\Contracts\\Repos\\IDishRepo.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAWwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:33:47.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAllCategoriesQueryHandler.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Category\\Queries\\GetAllCategories\\GetAllCategoriesQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Category\\Queries\\GetAllCategories\\GetAllCategoriesQueryHandler.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Category\\Queries\\GetAllCategories\\GetAllCategoriesQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Category\\Queries\\GetAllCategories\\GetAllCategoriesQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:55:18.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:33:29.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IdentityServiceRegistration.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Identity\\IdentityServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Identity\\IdentityServiceRegistration.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Identity\\IdentityServiceRegistration.cs",
+              "RelativeToolTip": "Identity\\IdentityServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:09:16.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateDishCommand.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommand.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommand.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:07:37.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Application\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Application\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T02:22:18.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Behaviours\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Behaviours\\LoggingBehavior.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Behaviours\\LoggingBehavior.cs",
+              "RelativeToolTip": "Application\\Behaviours\\LoggingBehavior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:28:39.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CachingBehavior.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Behaviours\\CachingBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Behaviours\\CachingBehavior.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Behaviours\\CachingBehavior.cs",
+              "RelativeToolTip": "Application\\Behaviours\\CachingBehavior.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:28:31.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateDishCommandHandler.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommandHandler.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommandHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA8AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:16:23.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:34:20.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DishComponent.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\DishComponent.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DishComponent.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\DishComponent.cs",
+              "RelativeToolTip": "Domain\\Entities\\DishComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:20:28.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateDishCommandResponse.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommandResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommandResponse.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommandResponse.cs",
+              "RelativeToolTip": "Application\\Features\\Dishes\\Commands\\AddDish\\CreateDishCommandResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:16:34.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Identity\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "Identity\\Entities\\AppUser.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Identity\\Entities\\AppUser.cs",
+              "RelativeToolTip": "Identity\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:09:20.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginUserCommandResponse.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommandResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommandResponse.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommandResponse.cs",
+              "RelativeToolTip": "Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommandResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:21:31.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginUserCommandHandler.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommandHandler.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:21:29.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\AppDbContext.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "Persistence\\AppDbContext.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAUwF8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:36:27.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAuthorizationService.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Identity\\IAuthorizationService.cs",
+              "RelativeDocumentMoniker": "Application\\Contracts\\Identity\\IAuthorizationService.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Identity\\IAuthorizationService.cs",
+              "RelativeToolTip": "Application\\Contracts\\Identity\\IAuthorizationService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:34:13.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Identity\\Implementation\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "Identity\\Implementation\\AuthorizationService.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Identity\\Implementation\\AuthorizationService.cs",
+              "RelativeToolTip": "Identity\\Implementation\\AuthorizationService.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAiwFgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:35:42.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "API\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:31:24.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20241013065311_InitialMigration.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\Migrations\\20241013065311_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Persistence\\Migrations\\20241013065311_InitialMigration.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\Migrations\\20241013065311_InitialMigration.cs",
+              "RelativeToolTip": "Persistence\\Migrations\\20241013065311_InitialMigration.cs",
+              "ViewState": "AQIAAMsCAAAAAAAAAAAAAMsCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T06:53:11.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAEMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T19:10:45.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LogMiddleware.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Middlewares\\LogMiddleware.cs",
+              "RelativeDocumentMoniker": "Application\\Middlewares\\LogMiddleware.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Middlewares\\LogMiddleware.cs",
+              "RelativeToolTip": "Application\\Middlewares\\LogMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T02:22:10.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PersistenceServiceRegistration.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\PersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Persistence\\PersistenceServiceRegistration.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\PersistenceServiceRegistration.cs",
+              "RelativeToolTip": "Persistence\\PersistenceServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T03:30:09.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Application\\ApplicationServiceRegistration.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "Application\\ApplicationServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:41:47.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Response\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Response\\ApiResponse.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Response\\ApiResponse.cs",
+              "RelativeToolTip": "Application\\Response\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:48:01.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Dish.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Dish.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Dish.cs",
+              "RelativeToolTip": "Domain\\Entities\\Dish.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:10:14.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IBaseRepo.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Repos\\IBaseRepo.cs",
+              "RelativeDocumentMoniker": "Application\\Contracts\\Repos\\IBaseRepo.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Repos\\IBaseRepo.cs",
+              "RelativeToolTip": "Application\\Contracts\\Repos\\IBaseRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:34:48.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthorizeRolesAttribute.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\Attributes\\AuthorizeRolesAttribute.cs",
+              "RelativeDocumentMoniker": "API\\Attributes\\AuthorizeRolesAttribute.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\Attributes\\AuthorizeRolesAttribute.cs",
+              "RelativeToolTip": "API\\Attributes\\AuthorizeRolesAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:10:27.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BaseRepo.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\Implementation\\Repos\\BaseRepo.cs",
+              "RelativeDocumentMoniker": "Persistence\\Implementation\\Repos\\BaseRepo.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\Implementation\\Repos\\BaseRepo.cs",
+              "RelativeToolTip": "Persistence\\Implementation\\Repos\\BaseRepo.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:31:29.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommand.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Identity\\Commands\\LoginUser\\LoginUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:21:26.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:16:13.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateUserCommandResponse.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommandResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommandResponse.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommandResponse.cs",
+              "RelativeToolTip": "Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommandResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:16:11.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Identity\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:16:02.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IClaimService.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Identity\\IClaimService.cs",
+              "RelativeDocumentMoniker": "Application\\Contracts\\Identity\\IClaimService.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Identity\\IClaimService.cs",
+              "RelativeToolTip": "Application\\Contracts\\Identity\\IClaimService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:34:15.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T19:09:48.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.Local.json",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\appsettings.Local.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Local.json",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\appsettings.Local.json",
+              "RelativeToolTip": "API\\appsettings.Local.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T19:29:57.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Client.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "Domain\\Entities\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:20:22.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Location.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Location.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Location.cs",
+              "RelativeToolTip": "Domain\\Entities\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:43:19.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICacheableResponse.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Helpers\\ICacheableResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Contracts\\Helpers\\ICacheableResponse.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Helpers\\ICacheableResponse.cs",
+              "RelativeToolTip": "Application\\Contracts\\Helpers\\ICacheableResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:35:15.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ICacheableRequest.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Helpers\\ICacheableRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Contracts\\Helpers\\ICacheableRequest.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Contracts\\Helpers\\ICacheableRequest.cs",
+              "RelativeToolTip": "Application\\Contracts\\Helpers\\ICacheableRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:35:12.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DbLogger.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\Implementation\\Helpers\\DbLogger.cs",
+              "RelativeDocumentMoniker": "Persistence\\Implementation\\Helpers\\DbLogger.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Persistence\\Implementation\\Helpers\\DbLogger.cs",
+              "RelativeToolTip": "Persistence\\Implementation\\Helpers\\DbLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:34:24.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Domain",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-13T04:25:46.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Order.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:07:34.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PaymentOption.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\PaymentOption.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\PaymentOption.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\PaymentOption.cs",
+              "RelativeToolTip": "Domain\\Entities\\PaymentOption.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:03:40.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ShippingProvider.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\ShippingProvider.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ShippingProvider.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\ShippingProvider.cs",
+              "RelativeToolTip": "Domain\\Entities\\ShippingProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:43:22.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ExtensionMethods.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\ExtensionMethods\\ExtensionMethods.cs",
+              "RelativeDocumentMoniker": "Application\\ExtensionMethods\\ExtensionMethods.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\ExtensionMethods\\ExtensionMethods.cs",
+              "RelativeToolTip": "Application\\ExtensionMethods\\ExtensionMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:38:03.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Favorite.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Favorite.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Favorite.cs",
+              "RelativeToolTip": "Domain\\Entities\\Favorite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:20:18.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DishNutrient.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\DishNutrient.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DishNutrient.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\DishNutrient.cs",
+              "RelativeToolTip": "Domain\\Entities\\DishNutrient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:15:22.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:20:11.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\CartItem.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "Domain\\Entities\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:36:42.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "AreaTypesEnum.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Enums\\AreaTypesEnum.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AreaTypesEnum.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Domain\\Enums\\AreaTypesEnum.cs",
+              "RelativeToolTip": "Domain\\Enums\\AreaTypesEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:42:40.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Application\\Behaviours\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Behaviours\\ValidationBehavior.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Application\\Behaviours\\ValidationBehavior.cs",
+              "RelativeToolTip": "Application\\Behaviours\\ValidationBehavior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:28:40.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UserRolesEnum.cs",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\Identity\\Enums\\UserRolesEnum.cs",
+              "RelativeDocumentMoniker": "Identity\\Enums\\UserRolesEnum.cs",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\Identity\\Enums\\UserRolesEnum.cs",
+              "RelativeToolTip": "Identity\\Enums\\UserRolesEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:27:34.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "API",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-12T18:30:14.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T19:26:08.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\coding projects\\fitty\\fitty-be\\API\\Dockerfile",
+              "RelativeDocumentMoniker": "API\\Dockerfile",
+              "ToolTip": "D:\\coding projects\\fitty\\fitty-be\\API\\Dockerfile",
+              "RelativeToolTip": "API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-12T18:34:12.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
