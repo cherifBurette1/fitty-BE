@@ -1,6 +1,7 @@
 ﻿using Application.Contracts.Repos;
 using Application.Features.Brands.Commands.CreateDish;
 using Application.Features.Category.Queries.GetAllCategories;
+using Application.Features.Reservations.Queries.GetDish;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -90,5 +91,10 @@ namespace Persistence.Implementation.Repos
         {
             return await _context.Categories.Select(x => new GetAllCategoriesQueryResponse { Id = x.Id, Name = x.Name, Icon = x.Icon }).ToListAsync();
         }
+        public async Task<GetDishQueryResponse> GetDish(Guid dishId)
+        {
+            return await _context.Dishes.Where(x => x.Id == dishId).Select(x => new GetDishQueryResponse { Id = x.Id, Name = x.Name, Description = x.Description, ImageURL = x.ImageURL, Price = x.Price, Rating = x.Rating, Calories = x.DishNutrient.Calories, Nature = x.DishNutrient.Nature, PreparationTime = x.DishNutrient.PreparationTime, Weight = (int)x.DishNutrient.Weight, Categories = x.Categories.Select(y => y.Name).ToList(), DishComponents = x.DishComponents.Select(x => x.Name).ToList() }).FirstAsync();
+        }
+
     }
 }

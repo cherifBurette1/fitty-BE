@@ -1,5 +1,4 @@
 ﻿using Domain.Common;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities
 {
@@ -17,17 +16,5 @@ namespace Domain.Entities
         public ICollection<Order> Orders { get; set; }
         public ICollection<Favorite> Favorites { get; set; }
         public ICollection<CartItem> CartItems { get; set; }
-
-        public override bool Equals(object obj)
-        {
-            if (obj == null || GetType() != obj.GetType())
-                return false;
-
-            var otherClient = (Client)obj;
-
-            return Email == otherClient.Email && MobileNumber == otherClient.MobileNumber;
-        }
-
-        public override int GetHashCode() => (Email + MobileNumber).GetHashCode();
     }
 }

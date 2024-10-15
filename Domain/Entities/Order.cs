@@ -20,6 +20,7 @@ namespace Domain.Entities
         [ForeignKey(nameof(PaymentOption))]
         public Guid PaymentOptionId { get; set; }
         public virtual PaymentOption PaymentOption { get; set; }
+        public ICollection<Dish> dishes { get; set; }
         public double TotalPrice { get; set; }
     }
 }

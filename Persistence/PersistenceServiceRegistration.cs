@@ -38,6 +38,11 @@ namespace Persistence
         {
             services.AddScoped(typeof(IBaseRepo<>), typeof(BaseRepo<>));
             services.AddScoped<IDishRepo, DishRepo>();
+            services.AddScoped<IFavoriteRepo, FavoriteRepo>();
+            services.AddScoped<IClientRepo, ClientRepo>();
+            services.AddScoped<ILocationRepo, LocationRepo>();
+            services.AddScoped<ICartRepo, CartRepo>();
+            services.AddScoped<IOrderRepo, OrderRepo>();
         }
 
 

@@ -1,15 +1,12 @@
-﻿using Application.Features.Dishes.Queries.GetPaginatedDishes;
-using Application.Response;
+﻿using Application.Response;
 using MediatR;
 using System.ComponentModel.DataAnnotations;
 
-namespace Application.Features.Reservations.Queries.GetAllDishes
+namespace Application.Features.Reservations.Queries.GetDish
 {
-    public class GetDishQuery : IRequest<ApiResponse<GetDishResponse>>
+    public class GetDishQuery : IRequest<ApiResponse<GetDishQueryResponse>>
     {
         [Required]
-        public string Category { get; set; }
-        public int Page { get; set; }
-        public int PageSize { get; set; }
+        public Guid Id { get; set; }
     }
 }

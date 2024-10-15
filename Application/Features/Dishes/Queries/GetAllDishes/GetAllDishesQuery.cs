@@ -1,5 +1,4 @@
-﻿using Application.Features.Dishes.Queries.GetPaginatedDishes;
-using Application.Response;
+﻿using Application.Response;
 using MediatR;
 using System.ComponentModel.DataAnnotations;
 

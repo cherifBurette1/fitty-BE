@@ -112,7 +112,7 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("3815aba3-2061-43af-bcba-efcb20d46d5e"),
+                            Id = new Guid("3dd17f3e-ecff-4840-a26d-50dbe9cf7f0a"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-umbrella-beach",
                             IsDeleted = false,
@@ -120,7 +120,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("61065806-5feb-40db-92b8-054e1dd1a990"),
+                            Id = new Guid("db4825c2-518f-4193-ace4-c5b0bc9cc744"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-scale-balanced",
                             IsDeleted = false,
@@ -128,7 +128,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b145346f-26c6-4ee7-94c7-528759a6e241"),
+                            Id = new Guid("eb89310d-3d27-49b4-94bb-6c6db118b1a3"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "gluten-free-icon",
                             IsDeleted = false,
@@ -136,7 +136,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("427d1b7e-bd22-4d98-87d3-902aed143f5a"),
+                            Id = new Guid("089a7787-1468-401a-9d6a-e4743139e988"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-clover",
                             IsDeleted = false,
@@ -144,7 +144,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("340b066a-980f-4947-bf94-6fc90cfdec93"),
+                            Id = new Guid("52bef303-344e-4492-b061-f4ff075d2cb2"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-egg",
                             IsDeleted = false,
@@ -152,7 +152,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1ab9451d-36a2-4bfb-aee9-b9e8dadbe88e"),
+                            Id = new Guid("4a5eb93f-46ca-4129-afd4-1dbf5c4d4d8f"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-plant-wilt",
                             IsDeleted = false,
@@ -160,7 +160,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("3a03090f-c8bd-422b-bf7a-98a5e37f383e"),
+                            Id = new Guid("9a16e724-1b79-42c7-a62b-8ac61b049f9d"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-mountain",
                             IsDeleted = false,
@@ -168,7 +168,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("ccfd69d8-2187-4c7e-a94e-67da93d464b0"),
+                            Id = new Guid("594412fd-fbdf-498a-b8d2-d4353c67f185"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-fish",
                             IsDeleted = false,
@@ -176,7 +176,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("d30f449c-3554-43ae-9c98-c5283d607735"),
+                            Id = new Guid("5f7d3add-5c4e-400d-91b2-f96f8cbda6bc"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-dna",
                             IsDeleted = false,
@@ -270,6 +270,9 @@ namespace Persistence.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("text");
 
+                    b.Property<Guid?>("OrderId")
+                        .HasColumnType("uuid");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("numeric");
 
@@ -283,6 +286,8 @@ namespace Persistence.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
 
                     b.ToTable("Dishes");
                 });
@@ -581,14 +586,14 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("5093bfbd-a8c6-4961-aafe-502617085523"),
+                            Id = new Guid("263e8939-1488-4d42-9287-051d4fe7c1bf"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             IsDeleted = false,
                             Name = "Credit Card"
                         },
                         new
                         {
-                            Id = new Guid("ae00f1d7-295a-45fe-9c14-7eb3c102329f"),
+                            Id = new Guid("24b77ea2-0284-4ffc-b245-11f058ca9bb0"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             IsDeleted = false,
                             Name = "Cash"
@@ -635,7 +640,7 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("edd8392a-9002-44d6-ad8e-7a135484f2ca"),
+                            Id = new Guid("3965629d-c11d-431b-b31b-4346c3ee6335"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             IsDeleted = false,
                             Name = "Marsool",
@@ -643,7 +648,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("89fdaf6a-19f1-4e7a-901f-7da90f015527"),
+                            Id = new Guid("6c7e9fd4-d0f9-4bd0-81ab-6fd894062e2c"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             IsDeleted = false,
                             Name = "Uber",
@@ -797,15 +802,15 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a029fc42-db58-4b12-b859-95995977a1f6",
-                            ConcurrencyStamp = "d379f3a6-5cb8-4185-906b-c5171490b3fd",
+                            Id = "c920e9a4-f3e1-4f2c-ad8a-e2b297497dbd",
+                            ConcurrencyStamp = "fd6e2909-8aad-4f0a-93e9-c846db9a633c",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "96e6f3cc-6c8c-4610-86c8-df45e2a0d4ea",
-                            ConcurrencyStamp = "8d4ca60e-73bf-4848-b409-86cb87b17852",
+                            Id = "4c2a2769-de49-4e00-b487-baa0c8e09cfa",
+                            ConcurrencyStamp = "2997bf06-2349-4556-8670-27e441196ac5",
                             Name = "Client",
                             NormalizedName = "CLIENT"
                         });
@@ -941,6 +946,13 @@ namespace Persistence.Migrations
                     b.HasOne("Domain.Entities.Dish", null)
                         .WithMany("Categories")
                         .HasForeignKey("DishId");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Dish", b =>
+                {
+                    b.HasOne("Domain.Entities.Order", null)
+                        .WithMany("dishes")
+                        .HasForeignKey("OrderId");
                 });
 
             modelBuilder.Entity("Domain.Entities.DishComponent", b =>
@@ -1102,6 +1114,11 @@ namespace Persistence.Migrations
                     b.Navigation("DishComponents");
 
                     b.Navigation("DishNutrient");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Order", b =>
+                {
+                    b.Navigation("dishes");
                 });
 
             modelBuilder.Entity("Identity.Entities.AppUser", b =>

@@ -17,7 +17,7 @@ namespace Persistence
     {
         private readonly IClaimService _claimService;
 
-        public AppDbContext(DbContextOptions options, IClaimService claimService) : base(options)
+        public AppDbContext(DbContextOptions options, IClaimService? claimService = null) : base(options)
         {
             _claimService = claimService;
         }
@@ -154,6 +154,6 @@ namespace Persistence
             }
 
             return await base.SaveChangesAsync(cancellationToken);
-        }
+            }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using Application.Features.Brands.Commands.CreateDish;
-using Application.Features.Category.Queries.GetAllCategories;
-using Application.Features.Dishes.Queries.GetPaginatedDishes;
 using Application.Features.Reservations.Queries.GetAllDishes;
+using Application.Features.Reservations.Queries.GetDish;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -32,6 +31,16 @@ namespace API.Controllers
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(CreateDishCommandResponse), StatusCodes.Status200OK)]
         public async Task<ActionResult> AddDish([FromBody] CreateDishCommand query)
+        {
+            var result = await _mediator.Send(query);
+
+            return GetApiResponse(result);
+        }
+        [AllowAnonymous]
+        [HttpGet("GetDish")]
+        [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(GetDishQueryResponse), StatusCodes.Status200OK)]
+        public async Task<ActionResult> GetDish([FromQuery] GetDishQuery query)
         {
             var result = await _mediator.Send(query);
 

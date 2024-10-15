@@ -2,11 +2,6 @@
 using Application.Response;
 using AutoMapper;
 using MediatR;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Linq;
-using System;
-using Application.Features.Dishes.Queries.GetPaginatedDishes;
 
 namespace Application.Features.Reservations.Queries.GetAllDishes
 {

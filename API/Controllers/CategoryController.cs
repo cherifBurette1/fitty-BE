@@ -1,7 +1,4 @@
-﻿using Application.Features.Brands.Commands.CreateDish;
-using Application.Features.Category.Queries.GetAllCategories;
-using Application.Features.Dishes.Queries.GetPaginatedDishes;
-using Application.Features.Reservations.Queries.GetAllDishes;
+﻿using Application.Features.Category.Queries.GetAllCategories;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
