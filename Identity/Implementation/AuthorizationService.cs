@@ -47,7 +47,6 @@ namespace Identity.Implementation
                 new List<string>()
                 {
                     nameof(UserRolesEnum.Client),
-                    nameof(UserRolesEnum.Admin),
                 });
 
             return ApiResponse<CreateUserCommandResponse>

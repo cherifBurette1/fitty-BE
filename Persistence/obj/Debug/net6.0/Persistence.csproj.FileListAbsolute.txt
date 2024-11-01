@@ -1,8 +1,3 @@
-D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
-D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
-D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
-D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
-D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
 D:\coding projects\fitty\fitty-be\Persistence\bin\Debug\net6.0\Persistence.deps.json
 D:\coding projects\fitty\fitty-be\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
 D:\coding projects\fitty\fitty-be\Persistence\bin\Debug\net6.0\Persistence.dll
@@ -13,6 +8,12 @@ D:\coding projects\fitty\fitty-be\Persistence\bin\Debug\net6.0\Identity.dll
 D:\coding projects\fitty\fitty-be\Persistence\bin\Debug\net6.0\Application.pdb
 D:\coding projects\fitty\fitty-be\Persistence\bin\Debug\net6.0\Domain.pdb
 D:\coding projects\fitty\fitty-be\Persistence\bin\Debug\net6.0\Identity.pdb
+D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.sourcelink.json
 D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persiste.61C28332.Up2Date
 D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\Persistence.dll
 D:\coding projects\fitty\fitty-be\Persistence\obj\Debug\net6.0\refint\Persistence.dll

@@ -86,13 +86,13 @@ namespace Persistence
             builder.Entity<IdentityRole>().HasData(
                 new IdentityRole
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = "c920e9a4-f3e1-4f2c-ad8a-e2b297497dbd",
                     Name = nameof(UserRolesEnum.Admin),
                     NormalizedName = nameof(UserRolesEnum.Admin).ToUpper()
                 },
                 new IdentityRole
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = "4c2a2769-de49-4e00-b487-baa0c8e09cfa",
                     Name = nameof(UserRolesEnum.Client),
                     NormalizedName = nameof(UserRolesEnum.Client).ToUpper()
                 }
@@ -102,31 +102,31 @@ namespace Persistence
         private void SeedCategories(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
-                new Category { Id = Guid.NewGuid(), Name = "Mediterranean Diet", Icon = "fa-solid fa-umbrella-beach" },
-                new Category { Id = Guid.NewGuid(), Name = "Balanced Diet", Icon = "fa-solid fa-scale-balanced" },
-                new Category { Id = Guid.NewGuid(), Name = "Low Carb Diet", Icon = "gluten-free-icon" },
-                new Category { Id = Guid.NewGuid(), Name = "Vegetarian Diet", Icon = "fa-solid fa-clover" },
-                new Category { Id = Guid.NewGuid(), Name = "Ketogenic Diet", Icon = "fa-solid fa-egg" },
-                new Category { Id = Guid.NewGuid(), Name = "Vegan Diet", Icon = "fa-solid fa-plant-wilt" },
-                new Category { Id = Guid.NewGuid(), Name = "Paleo Diet", Icon = "fa-solid fa-mountain" },
-                new Category { Id = Guid.NewGuid(), Name = "Pescatarian Diet", Icon = "fa-solid fa-fish" },
-                new Category { Id = Guid.NewGuid(), Name = "Dukan Diet", Icon = "fa-solid fa-dna" }
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d11"), Name = "Mediterranean Diet", Icon = "fa-solid fa-umbrella-beach" },
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d12"), Name = "Balanced Diet", Icon = "fa-solid fa-scale-balanced" },
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d13"), Name = "Low Carb Diet", Icon = "gluten-free-icon" },
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d14"), Name = "Vegetarian Diet", Icon = "fa-solid fa-clover" },
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d15"), Name = "Ketogenic Diet", Icon = "fa-solid fa-egg" },
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d16"), Name = "Vegan Diet", Icon = "fa-solid fa-plant-wilt" },
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d17"), Name = "Paleo Diet", Icon = "fa-solid fa-mountain" },
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d18"), Name = "Pescatarian Diet", Icon = "fa-solid fa-fish" },
+                new Category { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d19"), Name = "Dukan Diet", Icon = "fa-solid fa-dna" }
             );
         }
 
         private void SeedPaymentOptions(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PaymentOption>().HasData(
-                new PaymentOption { Id = Guid.NewGuid(), Name = "Credit Card" },
-                new PaymentOption { Id = Guid.NewGuid(), Name = "Cash" }
+                new PaymentOption { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d20"), Name = "Credit Card" },
+                new PaymentOption { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d21"), Name = "Cash" }
             );
         }
 
         private void SeedShippingProviders(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ShippingProvider>().HasData(
-                new ShippingProvider { Id = Guid.NewGuid(), Name = "Marsool", Price = 100 },
-                new ShippingProvider { Id = Guid.NewGuid(), Name = "Uber", Price = 100 }
+                new ShippingProvider { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d22"), Name = "Marsool", Price = 100 },
+                new ShippingProvider { Id = Guid.Parse("c920e9a4-f3e1-4f2c-ad8a-e2b297497d23"), Name = "Uber", Price = 100 }
             );
         }
 
@@ -154,6 +154,6 @@ namespace Persistence
             }
 
             return await base.SaveChangesAsync(cancellationToken);
-            }
+        }
     }
 }

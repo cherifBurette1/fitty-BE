@@ -41,9 +41,5 @@ namespace API.Controllers
 
             return GetApiResponse(result);
         }
-        //{
-        //  "email": "string@string.com",
-        //  "password": "@String1"
-        //}
     }
 }

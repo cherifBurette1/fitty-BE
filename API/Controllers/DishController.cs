@@ -1,6 +1,8 @@
-﻿using Application.Features.Brands.Commands.CreateDish;
+﻿using API.Attributes;
+using Application.Features.Brands.Commands.CreateDish;
 using Application.Features.Reservations.Queries.GetAllDishes;
 using Application.Features.Reservations.Queries.GetDish;
+using Identity.Enums;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +28,7 @@ namespace API.Controllers
 
             return GetApiResponse(result);
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Admin)]
         [HttpPost("AddDish")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(CreateDishCommandResponse), StatusCodes.Status200OK)]

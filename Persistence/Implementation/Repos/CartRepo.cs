@@ -44,7 +44,17 @@ namespace Persistence.Implementation.Repos
         }
         public async Task<List<GetCartItemsQueryResponse>> GetCartItemList(Guid userId)
         {
-            return await _context.CartItems.Where(x => x.ClientId == userId).Select(x => new GetCartItemsQueryResponse { Id = x.Id, Description = x.Dish.Description, Name = x.Dish.Name, ImageURL = x.Dish.ImageURL, Price = x.Dish.Price, Quantity = x.Quantity}).ToListAsync();
+            return await _context.CartItems.Where(x => x.ClientId == userId).Select(x => new GetCartItemsQueryResponse { Id = x.DishId, Description = x.Dish.Description, Name = x.Dish.Name, ImageURL = x.Dish.ImageURL, Price = x.Dish.Price, Quantity = x.Quantity }).ToListAsync();
+        }
+        public async Task RemoveCartItems(Guid userId)
+        {
+            var cartItems = await _context.CartItems.Where(x => x.ClientId == userId).ToListAsync();
+            if (cartItems.Any())
+            {
+                _context.RemoveRange(cartItems);
+                await _context.SaveChangesAsync();
+            }
+
         }
     }
 }

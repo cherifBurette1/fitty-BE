@@ -8,6 +8,7 @@ D:\coding projects\fitty\fitty-be\Application\obj\Debug\net6.0\Application.Gener
 D:\coding projects\fitty\fitty-be\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
 D:\coding projects\fitty\fitty-be\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
 D:\coding projects\fitty\fitty-be\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\coding projects\fitty\fitty-be\Application\obj\Debug\net6.0\Application.sourcelink.json
 D:\coding projects\fitty\fitty-be\Application\obj\Debug\net6.0\Applicat.44B5EDA2.Up2Date
 D:\coding projects\fitty\fitty-be\Application\obj\Debug\net6.0\Application.dll
 D:\coding projects\fitty\fitty-be\Application\obj\Debug\net6.0\refint\Application.dll

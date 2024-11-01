@@ -1,13 +1,11 @@
-﻿using Application.Features.Brands.Commands.CreateDish;
+﻿using API.Attributes;
 using Application.Features.Cart.Commands.AddCartItem;
 using Application.Features.Cart.Commands.RemoveCartItem;
 using Application.Features.Cart.Queries.GetCartItems;
 using Application.Features.Cart.Queries.GetShippingProviders;
 using Application.Features.Cart.Queries.GetUserLocations;
-using Application.Features.Reservations.Queries.GetAllDishes;
-using Application.Features.Reservations.Queries.GetDish;
+using Identity.Enums;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -20,7 +18,7 @@ namespace API.Controllers
         {
             _mediator = mediator;
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Client)]
         [HttpGet("GetShippingProviders")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(List<GetShippingProviderQueryResponse>), StatusCodes.Status200OK)]
@@ -30,7 +28,7 @@ namespace API.Controllers
 
             return GetApiResponse(result);
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Client)]
         [HttpGet("GetPaymentOptions")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(List<GetPaymentOptionsQueryResponse>), StatusCodes.Status200OK)]
@@ -40,7 +38,7 @@ namespace API.Controllers
 
             return GetApiResponse(result);
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Client)]
         [HttpGet("GetUserLocations")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(List<GetUserLocationsQueryResponse>), StatusCodes.Status200OK)]
@@ -50,7 +48,7 @@ namespace API.Controllers
 
             return GetApiResponse(result);
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Client)]
         [HttpPost("AddCartItem")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(AddCartItemCommandResponse), StatusCodes.Status200OK)]
@@ -60,7 +58,7 @@ namespace API.Controllers
 
             return GetApiResponse(result);
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Client)]
         [HttpPost("RemoveCartItem")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(RemoveCartItemCommandResponse), StatusCodes.Status200OK)]
@@ -70,7 +68,7 @@ namespace API.Controllers
 
             return GetApiResponse(result);
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Client)]
         [HttpGet("GetAllCartItems")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(List<GetCartItemsQueryResponse>), StatusCodes.Status200OK)]

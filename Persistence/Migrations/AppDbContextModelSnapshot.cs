@@ -22,6 +22,21 @@ namespace Persistence.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("DishOrder", b =>
+                {
+                    b.Property<Guid>("DishesId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("OrdersId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("DishesId", "OrdersId");
+
+                    b.HasIndex("OrdersId");
+
+                    b.ToTable("DishOrder");
+                });
+
             modelBuilder.Entity("Domain.Entities.CartItem", b =>
                 {
                     b.Property<Guid>("Id")
@@ -112,7 +127,7 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("3dd17f3e-ecff-4840-a26d-50dbe9cf7f0a"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d11"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-umbrella-beach",
                             IsDeleted = false,
@@ -120,7 +135,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("db4825c2-518f-4193-ace4-c5b0bc9cc744"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d12"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-scale-balanced",
                             IsDeleted = false,
@@ -128,7 +143,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("eb89310d-3d27-49b4-94bb-6c6db118b1a3"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d13"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "gluten-free-icon",
                             IsDeleted = false,
@@ -136,7 +151,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("089a7787-1468-401a-9d6a-e4743139e988"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d14"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-clover",
                             IsDeleted = false,
@@ -144,7 +159,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("52bef303-344e-4492-b061-f4ff075d2cb2"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d15"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-egg",
                             IsDeleted = false,
@@ -152,7 +167,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4a5eb93f-46ca-4129-afd4-1dbf5c4d4d8f"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d16"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-plant-wilt",
                             IsDeleted = false,
@@ -160,7 +175,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("9a16e724-1b79-42c7-a62b-8ac61b049f9d"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d17"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-mountain",
                             IsDeleted = false,
@@ -168,7 +183,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("594412fd-fbdf-498a-b8d2-d4353c67f185"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d18"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-fish",
                             IsDeleted = false,
@@ -176,7 +191,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("5f7d3add-5c4e-400d-91b2-f96f8cbda6bc"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d19"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             Icon = "fa-solid fa-dna",
                             IsDeleted = false,
@@ -270,9 +285,6 @@ namespace Persistence.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("text");
 
-                    b.Property<Guid?>("OrderId")
-                        .HasColumnType("uuid");
-
                     b.Property<decimal>("Price")
                         .HasColumnType("numeric");
 
@@ -286,8 +298,6 @@ namespace Persistence.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
 
                     b.ToTable("Dishes");
                 });
@@ -586,14 +596,14 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("263e8939-1488-4d42-9287-051d4fe7c1bf"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d20"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             IsDeleted = false,
                             Name = "Credit Card"
                         },
                         new
                         {
-                            Id = new Guid("24b77ea2-0284-4ffc-b245-11f058ca9bb0"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d21"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             IsDeleted = false,
                             Name = "Cash"
@@ -640,7 +650,7 @@ namespace Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("3965629d-c11d-431b-b31b-4346c3ee6335"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d22"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             IsDeleted = false,
                             Name = "Marsool",
@@ -648,7 +658,7 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("6c7e9fd4-d0f9-4bd0-81ab-6fd894062e2c"),
+                            Id = new Guid("c920e9a4-f3e1-4f2c-ad8a-e2b297497d23"),
                             CreatedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
                             IsDeleted = false,
                             Name = "Uber",
@@ -803,14 +813,14 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = "c920e9a4-f3e1-4f2c-ad8a-e2b297497dbd",
-                            ConcurrencyStamp = "fd6e2909-8aad-4f0a-93e9-c846db9a633c",
+                            ConcurrencyStamp = "d7f4622b-2f3a-4035-8a9d-bcd939dc69ce",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "4c2a2769-de49-4e00-b487-baa0c8e09cfa",
-                            ConcurrencyStamp = "2997bf06-2349-4556-8670-27e441196ac5",
+                            ConcurrencyStamp = "f1e4be3c-445a-4fee-a06c-b262ebb8666d",
                             Name = "Client",
                             NormalizedName = "CLIENT"
                         });
@@ -922,6 +932,21 @@ namespace Persistence.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("DishOrder", b =>
+                {
+                    b.HasOne("Domain.Entities.Dish", null)
+                        .WithMany()
+                        .HasForeignKey("DishesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Order", null)
+                        .WithMany()
+                        .HasForeignKey("OrdersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Domain.Entities.CartItem", b =>
                 {
                     b.HasOne("Domain.Entities.Client", "Client")
@@ -946,13 +971,6 @@ namespace Persistence.Migrations
                     b.HasOne("Domain.Entities.Dish", null)
                         .WithMany("Categories")
                         .HasForeignKey("DishId");
-                });
-
-            modelBuilder.Entity("Domain.Entities.Dish", b =>
-                {
-                    b.HasOne("Domain.Entities.Order", null)
-                        .WithMany("dishes")
-                        .HasForeignKey("OrderId");
                 });
 
             modelBuilder.Entity("Domain.Entities.DishComponent", b =>
@@ -1114,11 +1132,6 @@ namespace Persistence.Migrations
                     b.Navigation("DishComponents");
 
                     b.Navigation("DishNutrient");
-                });
-
-            modelBuilder.Entity("Domain.Entities.Order", b =>
-                {
-                    b.Navigation("dishes");
                 });
 
             modelBuilder.Entity("Identity.Entities.AppUser", b =>

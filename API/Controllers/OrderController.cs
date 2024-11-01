@@ -1,13 +1,7 @@
-﻿using Application.Features.Brands.Commands.CreateDish;
-using Application.Features.Cart.Commands.AddCartItem;
-using Application.Features.Cart.Commands.RemoveCartItem;
-using Application.Features.Cart.Queries.GetCartItems;
-using Application.Features.Cart.Queries.GetShippingProviders;
-using Application.Features.Cart.Queries.GetUserLocations;
+﻿using API.Attributes;
 using Application.Features.Order.Commands.AddOrder;
 using Application.Features.Order.Queries.GetUserOrders;
-using Application.Features.Reservations.Queries.GetAllDishes;
-using Application.Features.Reservations.Queries.GetDish;
+using Identity.Enums;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -22,7 +16,7 @@ namespace API.Controllers
         {
             _mediator = mediator;
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Client)]
         [HttpPost("AddOrder")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(List<AddOrderCommandResponse>), StatusCodes.Status200OK)]
@@ -32,7 +26,7 @@ namespace API.Controllers
 
             return GetApiResponse(result);
         }
-        [AllowAnonymous]
+        [AuthorizeRoles(UserRolesEnum.Client)]
         [HttpGet("GetAllUsersOrders")]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(List<GetUserOrdersQueryResponse>), StatusCodes.Status200OK)]

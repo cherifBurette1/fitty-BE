@@ -12,5 +12,6 @@ namespace Application.Contracts.Repos
         Task<List<GetShippingProviderQueryResponse>> GetShippingProviders();
         Task<List<GetUserLocationsQueryResponse>> GetUserAddress(Guid userId);
         Task<CartItem> IsExistingCartItem(Guid userId, Guid dishId);
+        Task RemoveCartItems(Guid userId);
     }
 }

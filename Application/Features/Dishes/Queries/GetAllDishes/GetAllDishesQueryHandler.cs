@@ -19,7 +19,7 @@ namespace Application.Features.Reservations.Queries.GetAllDishes
         public async Task<ApiResponse<PaginatedDishesResponse>> Handle(GetAllDishesQuery request, CancellationToken cancellationToken)
         {
             // Fetch paginated dishes and total count
-            var (dishes, totalCount) = await _dishRepo.GetAllDishesPaginated(request.Page, request.PageSize);
+            var (dishes, totalCount) = await _dishRepo.GetAllDishesPaginated(request.Page, request.PageSize, request.SearchText);
 
             // Map the dishes to the response model
             var dishResponses = dishes.Select(a => new GetAllDishesQueryResponse

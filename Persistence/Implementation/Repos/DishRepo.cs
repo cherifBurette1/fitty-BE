@@ -4,6 +4,8 @@ using Application.Features.Category.Queries.GetAllCategories;
 using Application.Features.Reservations.Queries.GetDish;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Persistence.Implementation.Repos
 {
@@ -12,7 +14,7 @@ namespace Persistence.Implementation.Repos
         public DishRepo(AppDbContext context) : base(context)
         {
         }
-        public async Task<(List<Dish> Dishes, int TotalCount)> GetAllDishesPaginated(int page, int pageSize)
+        public async Task<(List<Dish> Dishes, int TotalCount)> GetAllDishesPaginated(int page, int pageSize, string searchText)
         {
             var skip = (page - 1) * pageSize;
 
@@ -24,6 +26,7 @@ namespace Persistence.Implementation.Repos
                 .AsNoTracking()
                 .Skip(skip)
                 .Take(pageSize)
+                .Where(x => searchText.IsNullOrEmpty() || x.Name.ToUpper().Contains(searchText.ToUpper()))
                 .ToListAsync();
 
             return (dishes, totalCount);
@@ -96,5 +99,11 @@ namespace Persistence.Implementation.Repos
             return await _context.Dishes.Where(x => x.Id == dishId).Select(x => new GetDishQueryResponse { Id = x.Id, Name = x.Name, Description = x.Description, ImageURL = x.ImageURL, Price = x.Price, Rating = x.Rating, Calories = x.DishNutrient.Calories, Nature = x.DishNutrient.Nature, PreparationTime = x.DishNutrient.PreparationTime, Weight = (int)x.DishNutrient.Weight, Categories = x.Categories.Select(y => y.Name).ToList(), DishComponents = x.DishComponents.Select(x => x.Name).ToList() }).FirstAsync();
         }
 
+        public async Task<List<Dish>> GetDishesByIds(List<Guid> cartItemIds)
+        {
+            return await _context.Dishes
+                .Where(a => cartItemIds.Contains(a.Id))
+                .ToListAsync();
+        }
     }
 }
